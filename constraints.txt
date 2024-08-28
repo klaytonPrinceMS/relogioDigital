@@ -1,0 +1,7 @@
+							#           documento da equipe de segurança da informação restringindo
+							# versões de pacotes para todos os ambientes de desenvolvimento interno
+							# por motivos de segurança especificando os pacotes
+
+nunpy == 1.22.0
+pytz == 2020.1
+py-cpuinfo==0            # Pacote 9.0.0 apresenta problemas, trava o pc em loop na inicialização do programa
